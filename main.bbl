@@ -1,0 +1,137 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{Copyrightgovtime}{misc}{}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.copyright.gov/help/faq/faq-duration.html}}
+      \field{title}{How Long Does Copyright Protection Last?}
+    \endentry
+    \entry{miernicki2021artificial}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=65ca276d23142bcdeb24419e93d3a418}{%
+           family={Miernicki},
+           familyi={M\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{dc58b7277608c4d1d6bd3740316f5f78}
+      \strng{fullhash}{dc58b7277608c4d1d6bd3740316f5f78}
+      \strng{bibnamehash}{dc58b7277608c4d1d6bd3740316f5f78}
+      \strng{authorbibnamehash}{dc58b7277608c4d1d6bd3740316f5f78}
+      \strng{authornamehash}{dc58b7277608c4d1d6bd3740316f5f78}
+      \strng{authorfullhash}{dc58b7277608c4d1d6bd3740316f5f78}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{AI \& SOCIETY}
+      \field{number}{1}
+      \field{title}{Artificial intelligence and moral rights}
+      \field{volume}{36}
+      \field{year}{2021}
+      \field{pages}{319\bibrangedash 329}
+      \range{pages}{11}
+    \endentry
+    \entry{morgan2020conventional}{article}{}
+      \name{author}{1}{}{%
+        {{hash=8a89af7b7be32176afe5dbd8dd814fb8}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={Rachel},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {HeinOnline}%
+      }
+      \strng{namehash}{8a89af7b7be32176afe5dbd8dd814fb8}
+      \strng{fullhash}{8a89af7b7be32176afe5dbd8dd814fb8}
+      \strng{bibnamehash}{8a89af7b7be32176afe5dbd8dd814fb8}
+      \strng{authorbibnamehash}{8a89af7b7be32176afe5dbd8dd814fb8}
+      \strng{authornamehash}{8a89af7b7be32176afe5dbd8dd814fb8}
+      \strng{authorfullhash}{8a89af7b7be32176afe5dbd8dd814fb8}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Fordham Intell. Prop. Media \& Ent. LJ}
+      \field{title}{Conventional Protections for Commercial Fan Art Under the US Copyright Act}
+      \field{volume}{31}
+      \field{year}{2020}
+      \field{pages}{514}
+      \range{pages}{1}
+    \endentry
+    \entry{stoll2019carbon}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e99701c571e1539770399efbd57963d6}{%
+           family={Stoll},
+           familyi={S\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=f2fa032e00beb9b60bd4558b3baee416}{%
+           family={Klaa{ß}en},
+           familyi={K\bibinitperiod},
+           given={Lena},
+           giveni={L\bibinitperiod}}}%
+        {{hash=93978392548483948e684d350e424eea}{%
+           family={Gallersd{ö}rfer},
+           familyi={G\bibinitperiod},
+           given={Ulrich},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{fb3ab4ec1c53393033411cedb29a4197}
+      \strng{fullhash}{fb3ab4ec1c53393033411cedb29a4197}
+      \strng{bibnamehash}{fb3ab4ec1c53393033411cedb29a4197}
+      \strng{authorbibnamehash}{fb3ab4ec1c53393033411cedb29a4197}
+      \strng{authornamehash}{fb3ab4ec1c53393033411cedb29a4197}
+      \strng{authorfullhash}{fb3ab4ec1c53393033411cedb29a4197}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Joule}
+      \field{number}{7}
+      \field{title}{The carbon footprint of bitcoin}
+      \field{volume}{3}
+      \field{year}{2019}
+      \field{pages}{1647\bibrangedash 1661}
+      \range{pages}{15}
+    \endentry
+    \entry{Copyrightgov}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.copyright.gov/what-is-copyright/}}
+      \field{title}{What is Copyright?}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

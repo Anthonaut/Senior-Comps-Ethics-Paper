@@ -1,0 +1,62 @@
+\documentclass[10pt,twocolumn]{article} 
+
+% required packages for Oxy Comps style
+\usepackage{oxycomps} % the main oxycomps style file
+\usepackage{times} % use Times as the default font
+\usepackage[style=numeric,sorting=nyt]{biblatex} % format the bibliography nicely
+\usepackage{url}
+
+\usepackage{amsfonts} % provides many math symbols/fonts
+\usepackage{listings} % provides the lstlisting environment
+\usepackage{amssymb} % provides many math symbols/fonts
+\usepackage{graphicx} % allows insertion of grpahics
+\usepackage{hyperref} % creates links within the page and to URLs
+\usepackage{url} % formats URLs properly
+\usepackage{verbatim} % provides the comment environment
+\usepackage{xpatch} % used to patch \textcite
+
+\bibliography{references}
+\DeclareNameAlias{default}{last-first}
+
+\xpatchbibmacro{textcite}
+  {\printnames{labelname}}
+  {\printnames{labelname} (\printfield{year})}
+  {}
+  {}
+
+\pdfinfo{
+    /Title (Senior Comps Literature Review)
+    /Author (Anthony Vasquez)
+}
+
+\title{Senior Comps Ethics Paper}
+
+\author{Anthony Vasquez}
+\affiliation{Occidental College}
+\email{vasquez@oxy.edu}
+
+\begin{document}
+
+\maketitle
+
+\section{AI Artwork and Copyright}
+The first ethical to examine is the relationship between Artificial Intelligence (AI) produced work and copyright laws. Copyright is generally defined as the protection of “original works of authorship” as soon as the works are in a “tangible form of expression”.\cite{Copyrightgov}  As such, copyright is essential when it comes to any work because it is important to acknowledge credit to the creator of the work, as well as justly compensating them if the art is commercially used by other parties. To first understand the implications of copyright regarding artwork, it is best to start with the non-economic protections that exist for creative works, which is what moral rights is concerned with. Moral rights are like copyright but are defined as the philosophical protections of an author’s work – mainly recognition of the author’s credit and integrity of their own work. However, it is strongly implied in using the definition of “author” for the moral rights of produced work is only for human made work.\cite{miernicki2021artificial}  As such, the origin of ownership protections when a user uses my project is blurred since, even though the user inputs images, it is the neural network (i.e. the AI) that produces the new artwork. Regarding moral rights, the AI artwork may not be granted these rights, given the legal debate of what level of person hood should be granted to an AI in general to have them applied.\cite{miernicki2021artificial}  In other words, the user may not be able to just call the new artwork theirs if it was not them producing it. Hence, there is an ethical concern of whether it is moral to have the human using the machine be considered the de facto owner of the new work, or if some level of legal authorship should be given to the machine as well.
+
+There is also the consideration if the new art generated from my project may fall into infringement, especially if there is consideration by the user to commercialize the artwork. An example to illustrate this ethical concern is fan art, which is defined as artistic works by other artists of existing, licensed creative work. This compares with my project where there is the possibility for a user to input an image that is already the work of another person (e.g art of a fictional, licensed character) to stylize. For fan art, there is strong grounds of copyright infringement because the fan art is simply a derivative of the original author’s work; hence, the originality criteria for the fan art to have its own copyright protections of the artist is fallible.\cite{morgan2020conventional} Hence, my project may give way to users to just simply input works not of their own, which the new art may technically not be protected under copyright and is ethically ambiguous for such art to be produced if no enforcement of copyright is provided.
+
+There is also debate for the copyrightability of the generated artwork based on its stylization, since my project takes a style image to stylize the content image a user is looking to artistically render in. A typical style image could be a painting (e.g Starry Night by Van Gogh), which the question of copyright for the painting depends on the timeline of copyright protection. In general, copyright laws grant protection for the lifetime of the author plus seventy years after their death.\cite{Copyrightgovtime} As such, the historic paintings themselves, such as Starry Night, are considered public domain and are free for use without copyright concerns. The concern, however, arises when the user does not research the copyright laws of paintings or stylistic works, which there are grounds for copyright infringement. For paintings, this can occur if it is recent; hence, there is an original artist for the copyrighted painting. The stylization of other stylistic works is also protected under copyright, at least in the case of a third-party creating a work that has a very similar style to the original author’s work, which the similarity can be color palettes, background details, or calligraphy.  As such, the style image the user chooses can present an ambiguous of copyright, even if the content image is an original work of the user. A case can be that the content image is an original work of the user and is protected by copyright, but this is nullified if the style image chosen is copyrighted itself because the generated artwork takes on artistic traits of the style image. Hence, there is another door for ambiguity given the lack of copyright enforcement and ethical clarity for such a case on the stylization of the generated work alone.
+
+\section{The Environmental and Equity Cost of Graphics Cards}
+Graphics cards are an essential component to neural networks, as it provides the computing power necessary to do training and testing. However, this computing power comes at the cost of the environment, and a clear impact to illustrate this is with Bitcoin mining. Estimates put the annual power consumption of Bitcoin around 45.8 terawatt-hours, which is a grand amount of electricity for a singular purpose. Moreover, estimates put the carbon emissions of Bitcoin mining at around 22 metric tons of carbon.\cite{stoll2019carbon} On the power consumption alone, graphics cards only reinforce the waste of electricity given the computing power can be used for, arguably, better purposes. The same can be said for my project because if I would like to have a more robust neural network for better efficiency of generating art, then I would require a power-hungry graphics card to do so. The singular use of graphics cards to have a marginally better neural network for generating art may not be worth the environmental impact from contributing to the carbon emissions. Additionally, if the energy my graphics cards consumes is not sustainable then I would be enabling bad energy practices, such as with fossil fuels, at the individual level due to the demanding power requirements to sustain my graphics card for the project. These environmental concerns expand beyond me given users would need a graphics card to run my project. As such, the power consumption and carbon emissions are an ethical concern if I am considerate of the environmental costs.
+
+Graphics cards are not cheap when purchasing them, and if I am looking to build this project such that anyone can use it, the difference in use may lie in the equity barrier of requiring a graphics card to run it. Since my project requires a graphics card, this can be an issue for users that do not have a graphics card due to hardware limitations or limited funds. A prime concern is with the opportunity from using technology as part of one’s learning. My project is a form of experiential learning given the technology requirements and programming required to build it. However, this same experience is unattainable if the user does not have a graphics card, which the user loses out on making modifications to my project or simply learning the intricacies of it. Even if my project were open source, the hardware requirement of a graphics cards effectively limits the learning opportunity from accessing my project. Similarly, there is a monetary barrier in using cloud computing as a replacement to graphics cards, meaning this alternative is no better for those who were already financially limited in having a graphics. As such, there is an equity cost of the graphics card to follow through with my project.
+
+
+\begin{comment} % For citing the papers
+We recommended following the \citetitle{Overleaf2021LearnLaTeXIn} tutorial \cite{Overleaf2021LearnLaTeXIn}, and examining and playing with the source of this document, to gain working proficiency with LaTeX.
+We have also provided a \texttt{Makefile} which will automatically update the document as necessary; the use of makefiles is beyond the scope of this document, but see \textcite{Lambert2021MakefileTutorial}.
+\end{comment}
+
+\printbibliography 
+
+\end{document}
